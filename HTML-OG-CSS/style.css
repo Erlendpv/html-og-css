@@ -58,10 +58,6 @@ main section article img{
     width: 100%;
 }
 
-footer{
-    text-align: center;
-}
-
 
 h1{
     font-size: 2rem;
@@ -116,4 +112,33 @@ p{
 #subscribe form label, #subscribe form input{
     display: block;
     margin: 0 auto;
+}
+
+
+footer nav ul{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+footer nav ul li a{
+    margin: 0.1rem;
+}
+
+#social-icons{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+#social-icons li{
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    padding: 1rem;
+    border-radius: 50%;
 }
